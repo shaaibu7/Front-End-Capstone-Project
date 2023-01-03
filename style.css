@@ -173,6 +173,7 @@ p {
 
 .partners {
   background-color: var(--black);
+  padding-bottom: 20px;
 }
 
 .partner-header {

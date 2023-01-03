@@ -1,0 +1,59 @@
+.heading {
+  text-align: center;
+}
+
+.header-text{
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.global {
+  font-weight: bold;
+}
+
+.global-image {
+  border: 1px solid grey;
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.global-text {
+  font-size: large;
+  font-weight: bold;
+  width: 70%;
+}
+
+.global-container {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.global-summit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.global-summit-text {
+  font-size: large;
+  font-weight: bold;
+}
+
+.global-paragraph {
+  color: var(grey);
+}
+
+.computer-image {
+  margin-bottom: 30px;
+}
+
