@@ -14,7 +14,6 @@
   - [🚀 Live Demo](#live-demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [Loom Video Of Project] (#Description of project)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -112,7 +111,7 @@ You can deploy this project using:
 
 ## Loom Video Of Project <a name="Description of project"></a>
 
-- Loom: [Loom-Video](https://shaaibu7.github.io/Front-End-Capstone-Project/)
+- Loom: [Loom-Video](https://www.loom.com/share/5049c673251341938e3f2a8e9e0b2f2b)
 
  
 ## ⭐️ Show your support <a name="support"></a>
