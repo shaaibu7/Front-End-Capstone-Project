@@ -17,7 +17,6 @@
 
 .wrapper {
   width: 400px;
-  /* background-image: url("assets/images/background.svg"); */
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -27,15 +26,6 @@
   cursor: pointer;
   padding-top: 15px;
   margin-left: 15px;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 2px;
-  background-color: black;
-  margin: 5px 0;
-  padding: 3px;
 }
 
 .heading {
@@ -228,8 +218,89 @@ p {
   background-size: 100%;
 }
 
-.pad-class{
+.pad-class {
   padding-right: 15px;
+}
+
+/* hamburger styling */
+
+.nav-menu {
+  display: flex;
+  gap: 15px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: white;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
+  }
+
+  .hamburger.active {
+    padding-top: 20px;
+    position: fixed;
+  }
+
+  .changeColor {
+    background-color: white;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -150%;
+    gap: 0;
+    margin-top: -15px;
+    flex-direction: column;
+    background-color: var(--primary);
+    mix-blend-mode: multiply;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    padding-top: 70px;
+  }
+
+  .nav-item {
+    margin: 18px 0;
+    text-align: left;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -250,11 +321,10 @@ p {
   .head-bar-content {
     display: flex;
     column-gap: 10px;
-    justify-content:center;
+    justify-content: center;
     color: var(--white);
     padding-left: 50%;
     font-family: 'Lato', sans-serif;
-
   }
 
   .head-bar-margin {
@@ -351,10 +421,10 @@ p {
   }
 
   .client-room {
-     display: flex;
-     justify-content: center;
-     margin-left: 20%;
-     column-gap: -180%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    column-gap: -180%;
   }
 
   .client-section {
@@ -378,7 +448,7 @@ p {
     column-gap: 20px;
   }
 
-
-
-
+  .nav-menu {
+    display: none;
+  }
 }
