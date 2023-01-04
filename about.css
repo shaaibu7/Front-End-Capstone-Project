@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.header-text{
+.header-text {
   text-align: center;
 }
 
@@ -57,3 +57,11 @@
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .tech {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+}
