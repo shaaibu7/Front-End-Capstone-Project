@@ -226,7 +226,12 @@ p {
   background-image: url("assets/images/background.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  }
+}
+
+.pad-class{
+  padding-right: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .wrapper {
     width: 100%;
@@ -373,7 +378,7 @@ p {
     column-gap: 20px;
   }
 
-  
+
 
 
 }

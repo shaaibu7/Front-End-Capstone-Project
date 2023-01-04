@@ -1,3 +1,12 @@
+:root {
+  --background: #d3d3d3;
+  --primary: #ec5242;
+  --black: #272a31;
+  --white: #fff;
+  --grey: rgb(73, 72, 72);
+}
+
+
 .heading {
   text-align: center;
 }
@@ -57,11 +66,39 @@
   margin-bottom: 30px;
 }
 
+.main-section {
+  background-image: url("assets/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.white-bg {
+  background-color: var(--white);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
 @media screen and (min-width: 768px) {
   .tech {
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
+    background-color: var(--black);
+    color: var(--white);
   }
 
+  .global-image {
+    width: 30%;
+  }
+
+  .global-container {
+    margin: 0 auto;
+  }
+
+  .milestone-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .white-bg {
+    width: 40%;
+  }
 }
