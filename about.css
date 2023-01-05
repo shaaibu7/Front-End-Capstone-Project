@@ -65,7 +65,7 @@
   margin-bottom: 30px;
 }
 
-.main-section {
+.bg-content {
   background-image: url("assets/images/background.svg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -75,6 +75,11 @@
   background-color: var(--white);
   margin: 0 auto;
   padding: 10px;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -98,5 +103,16 @@
 
   .white-bg {
     width: 40%;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partners {
+    display: none;
   }
 }

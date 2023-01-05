@@ -111,7 +111,7 @@ You can deploy this project using:
 
 ## Loom Video Of Project <a name="Description of project"></a>
 
-- Loom: [Loom-Video](https://www.loom.com/share/5049c673251341938e3f2a8e9e0b2f2b)
+- Loom: [Loom-Video](https://www.loom.com/share/56063bb281f84a3a9d1df4d31fa702b3)
 
  
 ## ⭐️ Show your support <a name="support"></a>
@@ -122,6 +122,12 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Original Design idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance
+
+
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.

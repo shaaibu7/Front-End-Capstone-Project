@@ -16,9 +16,11 @@
 }
 
 .wrapper {
-  width: 400px;
+  /* width: 400px; */
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin: 0 auto;
 }
 
 .hamburger {
@@ -37,10 +39,13 @@
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
+  font-size: 50px;
+  width: 60%;
 }
 
 .header-paragraph {
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
 }
 
 .header-text {
@@ -51,6 +56,16 @@ h1 {
 .timing {
   font-family: 'Lato', sans-serif;
   padding-left: 15px;
+  padding-bottom: 15%;
+}
+
+.partner-image {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 20px;
 }
 
 h3 {
@@ -64,6 +79,7 @@ h3 {
 .program {
   background-color: var(--black);
   color: var(--white);
+  background-image: url('assets/images//back.png');
 }
 
 .program-line {
@@ -110,7 +126,7 @@ p {
 
 .btn {
   background-color: var(--primary);
-  margin-left: 10%;
+  margin-left: 18%;
   margin-top: 60px;
   margin-bottom: 30px;
   border-radius: 0;
@@ -127,8 +143,8 @@ p {
 
 .client-image {
   background-image: url("assets/images/dark-chees-background.svg");
-  width: 15%;
-  height: 50px;
+  width: 10%;
+  height: 45px;
   background-size: 17%;
   background-repeat: round;
   margin-left: 15px;
@@ -136,8 +152,8 @@ p {
 }
 
 .client-picture {
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .client-container {
@@ -179,8 +195,11 @@ p {
   font-size: large;
 }
 
-.tech {
+.footer {
   display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
   padding: 15px;
 }
 
@@ -191,6 +210,7 @@ p {
   text-align: center;
   padding-top: 10px;
   margin-bottom: 20px;
+  margin-top: 25px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -212,7 +232,7 @@ p {
   display: none;
 }
 
-.main-section {
+.bg-image {
   background-image: url("assets/images/background.svg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -246,6 +266,57 @@ p {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+}
+
+.text-bg {
+  background-color: var(--white);
+  width: 60%;
+}
+
+.grey {
+  font-family: 'Lato', sans-serif;
+  color: var(--grey);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  color: var(--white);
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.img-bg-1 {
+  background-image: url('assets/images/computereng.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+
+.img-bg-2 {
+  background-image: url('assets/images/computereng.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+
+.img-template-2 {
+  background-color: rgba(236, 83, 66, 0.83);
+  height: 100%;
+}
+
+.alpha-text {
+  padding-top: 40px;
+}
+
+.links {
+  color: var(--white);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -354,7 +425,16 @@ p {
   .logo {
     display: flex;
     color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
+
+  .client-picture {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
 
   .btn-1 {
     padding: 5px;
@@ -450,5 +530,10 @@ p {
 
   .nav-menu {
     display: none;
+  }
+
+  .foot {
+    background-color: var(--grey);
+    color: var(--white);
   }
 }
