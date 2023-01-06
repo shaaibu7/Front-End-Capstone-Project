@@ -38,7 +38,7 @@
 
 h1 {
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 50px;
   width: 60%;
 }
@@ -80,6 +80,7 @@ h3 {
   background-color: var(--black);
   color: var(--white);
   background-image: url('assets/images//back.png');
+  opacity: 0.9;
 }
 
 .program-line {
@@ -124,17 +125,21 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.btn {
+.btn-2 {
   background-color: var(--primary);
-  margin-left: 18%;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
   border-radius: 0;
   padding: 30px 80px;
   border: none;
   color: var(--white);
   font-size: medium;
   cursor: pointer;
+}
+
+.down-margin {
+  padding-bottom: 40px;
 }
 
 .btn:hover {
@@ -179,6 +184,7 @@ p {
 .partners {
   background-color: var(--black);
   padding-bottom: 20px;
+  display: none;
 }
 
 .partner-header {
@@ -196,11 +202,7 @@ p {
 }
 
 .footer {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  justify-content: space-between;
-  padding: 15px;
+  display: none;
 }
 
 .show {
@@ -241,6 +243,7 @@ p {
 .pad-class {
   padding-right: 15px;
 }
+
 
 /* hamburger styling */
 
@@ -306,7 +309,7 @@ p {
 }
 
 .img-template-2 {
-  background-color: rgba(236, 83, 66, 0.83);
+  background-color: rgba(236, 83, 66, 0.7);
   height: 100%;
 }
 
@@ -531,8 +534,21 @@ p {
     display: none;
   }
 
-  .foot {
-    background-color: var(--grey);
-    color: var(--white);
+  .footer {
+    display: block;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .partners {
+    display: block;
+  }
+
+  .client-container {
+    display: flex;
+    column-gap: 80px;
   }
 }
